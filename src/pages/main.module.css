@@ -1,0 +1,101 @@
+.container {
+    width: 100%;
+    height: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.list_wrapper {
+    height: 500px;
+    width: 800px;
+    margin: 20px auto;
+}
+
+.main_title {
+    font-weight: 700;
+    font-size: 48px;
+    color: #ef1717;
+    margin-top: 20px;
+    letter-spacing: 4px;
+}
+
+.input {
+    margin: 20px;
+    outline: none;
+    border: 1px solid grey;
+    padding: 10px;
+    border-radius: 10px;
+    width: 40%;
+    color: rgb(71, 71, 73);
+    font-size: 14px;
+}
+
+.input:focus {
+    border: 1px solid #ef1717;
+}
+
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.update_btn {
+    padding: 10px 25px;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 20px;
+    background-color: #ef1717;
+    background-image: #ef1717;
+    background-image: -moz-linear-gradient(top, #fff 0%, #313130 100%);
+    background-image: -webkit-linear-gradient(top, #fff 0%, #313130 100%);
+    background-image: linear-gradient(to bottom, #fff 0%, #313130 100%);
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-position: 0%;
+    -webkit-transition: background 300ms ease-in-out;
+    transition: background 300ms ease-in-out;
+}
+
+
+.update_btn:hover {
+    background-position: -200%;
+    transition: background 300ms ease-in-out;
+}
+
+.news_skeleton {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background: #fff;
+}
+
+
+.skeleton_loading {
+    background-color: #f0f0f0;
+    border-radius: 4px;
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.skeleton_image {
+    width: 200px;
+    height: 200px;
+    background-color: #f0f0f0;
+    border-radius: 4px;
+}

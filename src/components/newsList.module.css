@@ -1,0 +1,50 @@
+.list_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.04);
+    background: #fff;
+    width: 900px;
+}
+
+.list_img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.list_card {
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    margin: 10px 0;
+    color: #1a1818;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.desc {
+    font-weight: 400;
+    color: rgb(71, 71, 73);
+    font-size: 16px;
+}
+
+.sub_title {
+    font-weight: 300;
+    color: rgb(111, 111, 113);
+    font-size: 14px;
+
+}
+
+.author_name {
+    color: black;
+    font-size: 14px;
+}
