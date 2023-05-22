@@ -11,6 +11,12 @@ const Main = () => {
 
   useEffect(() => {
     fetchNews();
+
+    const interval = setInterval(() => {
+      fetchNews();
+    }, 60000);
+
+    return () => clearInterval(interval);
   }, []);
 
   const fetchNews = async () => {
